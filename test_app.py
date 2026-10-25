@@ -19,5 +19,3 @@ def test_decimal_amount():
     assert calculate_total(100.50) == 105.53
 
 
-def test_demo_failure():
-    assert calculate_total(100) == 999
